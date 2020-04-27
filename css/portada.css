@@ -1,0 +1,39 @@
+ #portada img{
+                width: 100%;
+                height: 100%;
+                max-height: 600px;
+     top: 57px;
+            }
+            #portada img{
+                position: relative;
+                max-height: 600px; 
+            }
+            #portada .portada-info{
+                position: absolute;
+                top: 15%;
+                left: 25px;
+                max-width: 75%;
+             
+            }
+            #portada h2{
+                color: white; 
+                 text-shadow: 6px 2px 13px
+        rgba(0,0,0,0,77);
+                font-size: 12;
+                text-shadow: 5px -1px 9px #000000;
+            } 
+            #portada a{
+                width: 70px;
+                height: 30px;
+                color: white;
+                text-decoration: none;
+                display: block;
+                border: 1px solid white;
+                font-size: 12px;
+                padding: 8px;
+                text-align: center;
+                text-shadow: 5px -1px 9px #000000;
+            } 
+            #portada a:hover{
+                background:rgba(242,242,242,0.57);
+}

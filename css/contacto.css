@@ -1,0 +1,47 @@
+#contacto {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                box-sizing:border-box;
+            }
+            #contacto li{
+                width: 100%;
+                height: auto;
+                background: #f2f2f2;
+                margin: 5px 0;
+                list-style: none;
+                color: #333;
+                height: 35px;
+                font-size: 20px;
+                border-left: 8px solid #fe4c50;
+                padding-top: 10px;
+            }
+            #contacto .icon-location{
+                width: 100px;
+                height: 100%;
+                margin: 0 20px;
+                
+            }
+#contacto span{
+    color: #fe4c50;
+    padding: 20px;
+    
+}
+#contacto .formulario input{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+}
+#contacto .formulario textarea{
+    width: 100%;
+    height: 60px;
+
+    box-sizing: border-box;
+}
+#contacto .iframe{
+    z-index: -5;
+    border: 0;
+    position: absolute;
+    width: 10%;
+    height: 78%;
+}

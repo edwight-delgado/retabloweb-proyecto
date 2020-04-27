@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=500, initial-scale=1">
+      <link href="fontello/css/fontello.css" rel="stylesheet"  type="text/css">
+<link href="css/estilos.css" rel="stylesheet"  type="text/css">
+        <style>
+
+           
+            
+            @media (min-width: 630px){
+                #portada .portada-info{
+                    top: 30%;
+                    left: 10%;
+                    
+                } 
+                #portada h2{
+                   font-size: 28px;
+                    
+                } 
+               
+            }
+        </style>
+        
+    </head>
+    <body>
+         <header>
+            <img src="https://cms-assets.tutsplus.com/uploads/users/15/posts/24999/image/logo.png" class="logo">
+            <input type="checkbox" id='check'>
+            <label class="icon-menu" for="check" onClick="menucambio()"></label>
+            <div class="menu" id="menu">
+                <a href="#portada">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+         </header>
+         <section id="portada">
+             <img src="img/slider_1.jpg">
+                <div class="contenedor">
+                   <div class="portada-info">
+                    <h2>Consigue hasta 30% de descuento en nuestra tienda </h2>
+                        <a href="#">saber más</a>
+                </div>
+
+             </div>
+        </section>
+        <section id="nosotros">
+            <div class="figure">
+              <video controls width="100%">
+                <source src="video/foo.mp4">
+            </video>   
+            </div>
+           
+            <div class="texto">
+                <h3>¿QUIÉNES SOMOS?</h3>
+                        <p>Somos una empresa joven, pero con experiencia en el sector de la moda urbana unisex, situada en el centro de Boiro que ahora se lanza a la venta on-line. Nos anticipamos y desciframos los códigos de las tendencias más actuales para crear nuestros propios looks.</p> 
+
+                     <p>Realizamos una selección de productos de diferentes proveedores. Buscamos prendas que se adapten a las últimas tendencias, que se puedan combinar fácilmente y realizadas en distintos tipos de materiales (algodón, seda, blonda, encaje…) para ofrecerte la colección más chic de la temporada.</p> 
+
+            </div>
+        </section>
+        <section id="galeria">
+            <h2>Algo que puede interesarte</h2>
+            <p>catálogo tras catálogo, podrá chequear nuestras numerosas colecciones.</p>
+            <ul>
+                <li>
+                   <div class="info">5%</div>
+                    <img src="img/jean1.jpg"></li>
+                  <li>
+                    <div class="info">15%</div>
+                     <img src="img/jean2.jpg"></li>
+                 <li>
+                   <div class="info">30%</div>
+                    <img src="img/jean3.jpg"> 
+                    
+                </li>
+                 <li>
+                   <div class="info">25%</div>
+                    <img src="img/jean4.jpg"></li>
+
+            </ul>
+            <a href="" class="btn-galeria">Saber Más</a>
+       </section>       
+       <section id="contacto">
+       <div class="direcciones">
+           <ul>
+               <li>
+               <span class=" icon-address-card"></span>
+               Dirección
+               </li>
+               <li>
+               <span class=" icon-phone"></span>
+               Teléfono
+               </li>
+               <li>
+               <span class=" icon-mail"></span>
+               Correo
+               </li>
+           </ul> 
+       </div>
+       <div class="formulario">
+          <form>
+              <input type="text" placeholder="Mi nombre">
+              <input type="email" requerid placeholder="Mi dirección@gmail.com">
+              <input type="text" placeholder="Teléfono">
+              <textarea placeholder="Escríbenos aquí..."></textarea>
+              <input type="submit" value="Enviar">
+          </form>
+       </div>
+       </section>
+       <footer class="footer">
+        
+           <div class="footer-right">
+               <a href="#">Inicio</a>
+               <a href="#">Nosotros</a>
+               <a href="#">Galería</a>
+               <a href="#">Contacto</a>
+           </div>
+           <div class="footer-left">
+               <a href="">
+                   <i class=" icon-facebook-circled"></i>
+               </a>
+               <a href="">
+                   <i class=" icon-instagram"></i>
+               </a>
+               <a href="">
+                   <i class=" icon-twitter-squared"></i>
+               </a>
+               <a href="">
+                   <i class=" icon-grocery-store"></i>
+               </a>
+           </div>
+       </footer>
+       <script>
+           var menu= document.getElementById('menu');
+           var x = window.matchMedia("(min-width: 630px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+           
+           function myFunction(x) {
+              if (x.matches) { // If media query matches
+                menu.style.display = "block";
+              } else {
+               menu.style.display = "none";
+              }
+            }
+           
+            menucambio = function(){
+            
+
+            if(menu.style.display=="none"){
+                menu.style.display='flex';
+            }
+            else{
+                menu.style.display="none";
+            }
+        }
+           
+        </script>
+    </body>
+</html>
+

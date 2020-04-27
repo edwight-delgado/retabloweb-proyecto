@@ -1,0 +1,56 @@
+     @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+     @import url("menu.css");
+     @import url("portada.css");
+     @import url("nosotros.css");
+     @import url("galeria.css");
+     @import url("contacto.css");
+     @import url("footer.css"); 
+@media(min-width:630px){
+    header .menu{
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        position: static;
+        float: right;
+        width: auto;
+        margin-top: 10px;
+      
+    } 
+    header .menu a{
+        padding: 10px;
+        border: none;
+    }
+    header .icon-menu{
+        display: none;
+    }
+    #nosotros{
+        
+        flex-direction: row;
+    }
+    #contacto{
+      height:400px; 
+    flex-direction: row;
+    position: relative;
+    } 
+    #contacto .direcciones{
+      
+        
+    }
+    #contacto .formulario{
+       width: 49%;
+    height: 51%;
+    right: 7px;
+    bottom: 0;
+    position: absolute;
+    padding-top: 150px
+    }
+}
+#contacto .contenedor{
+        width: 100%;
+    height: 90%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

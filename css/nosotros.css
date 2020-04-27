@@ -1,0 +1,23 @@
+ #nosotros .picture,
+            #nosotros .texto{
+                width: 85%;
+                margin: auto;
+            }
+            #nosotros .texto{
+                background: #f2f2f2;
+               padding-left: 10px;         
+            }
+            #nosotros{
+                background: #f2f2f2;
+                display: flex;
+                flex-direction: column;
+            }
+            #nosotros h3, nosotros p{
+                font-size: 18px;
+              font-family: 'Indie Flower', cursive;
+            
+            }
+            #nosotros p{
+                font-size: 15px;
+                font-family: 'Indie Flower', cursive;
+            }
